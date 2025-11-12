@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Single+Ink:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Momo+Signature&family=Smooch+Sans:wght@100..900&family=Trade+Winds&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="https://de.stardewvalleywiki.com/mediawiki/extensions/StardewValley/images/favicon.png">
+<link rel="stylesheet" href="style.css">
+
+<title>Verlauf</title>
+<style>
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,1);
+  z-index: 2;
+  cursor: pointer;
+}
+
+
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+</style>
+</head>
+
+<body onload="on()">
+
+
+
+
+
+
+
+	<script type="text/javascript">
+    for (let i = 0; i < 42; i++) {
+  console.error("Was ist das? Eine CTF-Challenge?");
+}
+console.error("Was ist das? Eine CTF-Challenge?");
+</script>
+<div id="overlay" onclick="off()">
+  <div id="text">SPOILERWARNUNG! Klicken zum Ausblenden.</div>
+
+</div>
+  <h1>Verlauf</h1>
+
+<button onclick="history.back()">Zurück zur Hauptseite</button>
+
+
+<hr>
+<p>Ein typischer Playthrough des Spiels sieht so aus:</p>
+<ol>
+  <li>Charakter und Farm erstellen</li>
+  <li>Introsequenz ansehen (Wenn nicht übersprungen)</li>
+  <li>Erste Samen anpflanzen & gießen</li>
+  <li>Schlafen</li>
+  <li>Bis Ernte Wiederholen</li>
+  <li>Tier adoptieren (Oder überspringen)</li>
+  <li>Samen bei Pierres kaufen (Oder JoJa)</li>
+  <li>Etwas länger wiederholen</li>
+  <li>Gemeinschaftszentrum freischalten</li>
+  <li>Angel abholen</li>
+  <li>Schwert abholen</li>
+  <li>In die Minen gehen und die Zeit aus den Augen verlieren</li>
+  <li>Alle Bündel im Gemeinschaftszentrum vervollständigen</li>
+  <li>Farm verschönern</li>
+  
+</ol>
+
+<hr>
+<script>
+function on() {
+  document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+  document.getElementById("overlay").style.display = "none";
+}
+</script>
+</body>
+
+<footer>
+<p>© Jannis 2025</p>
+<p>Diese Infos sind aus eigener Erfahrung und ohne jegliche Garantie bereitgestellt.</p>
+
+
+<marquee direction="right">Sternentautaal</marquee>
+
+</footer>
+</html>

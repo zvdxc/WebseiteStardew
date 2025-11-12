@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "StardewTitle";
+  src: url(Title.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Stardew";
+  src: url(StardewValley.ttf) format("truetype");
+}
+    p {font-family:Stardew}
+    label {font-family:Jost}
+    h1 {font-family:Smooch Sans}
+    h2 {font-family:StardewTitle}
+    li {font-family:Stardew}
+    hr {animation-name: hranim; animation-duration: 2s; animation-iteration-count: infinite;}
+    a {font-family: Trade Winds;}
+    th {font-family:StardewTitle}
+    td {font-family:Stardew}
+    table, th, td {
+  border: 1px solid red;
+  border-collapse: collapse;
+}
+    @keyframes myAnimation {
+  0%   {background-color:black;}
+  33%  {background-color:red;}
+  66%  {background-color:yellow;}
+  100%  {background-color:black;}
+}
+    @keyframes hranim {
+        0%  {border: 1px solid #59C9F1}
+        14% {border: 1px solid #151152}
+        28% {border: 1px solid #B52121}
+		42% {border: 1px solid #6B3710}
+		56% {border: 1px solid #DDA059}
+		70% {border: 1px solid #FFD921}
+		100% {border: 1px solid #59C9F1}
+    }
+
+  footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(233, 150, 122);
+  color: white;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #04AA6D;} /* Green */
+.button2 {background-color: #008CBA;} /* Blue */
+
+
+
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+
+a:hover {
+ cursor:alias;
+}
+
+button:hover {
+cursor: pointer;
+}
+
+p:hover {
+    cursor: default;
+}
+
+h1:hover {
+    cursor: default;
+}
+
+h2:hover {
+    cursor: default;
+}
+
+li:hover {
+    cursor: default;
+}
+
+img.one {
+  height: 50%;
+  width: 50%;
+}
+
+
